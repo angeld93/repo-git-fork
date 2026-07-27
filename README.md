@@ -45,3 +45,18 @@ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
 ```
 
 Después de ejecutar estos comandos, necesitas cambiar la rama por defecto en tu repositorio de GitHub, para ello puedes guiarte con este [recurso](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/changing-the-default-branch) de la documentación oficial de GitHub.
+
+## 😶‍🌫️ Tercera Práctica: Ignorando archivos con .gitignore
+
+Para evitar que Git agregue ciertos archivos y carpetas que no queremos subir al repositorio, podemos utilizar un archivo llamado `.gitignore`.
+
+Además de incluir nombres de archivos y carpetas, también es posible utilizar _comodines_. Por ejemplo:
+
+```gitignore
+# No rastrea los archivos con extensión .exe
+*.exe
+```
+
+Las almohadillas (`#`) se utilizan dentro de los archivo `.gitignore` para definir comentarios.
+
+Para generar automáticamente el contenido de un archivo `.gitignore` según tu proyecto, puedes utilizar el sitio [gitignore.io](https://www.toptal.com/developers/gitignore).
