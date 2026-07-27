@@ -60,3 +60,11 @@ Además de incluir nombres de archivos y carpetas, también es posible utilizar 
 Las almohadillas (`#`) se utilizan dentro de los archivo `.gitignore` para definir comentarios.
 
 Para generar automáticamente el contenido de un archivo `.gitignore` según tu proyecto, puedes utilizar el sitio [gitignore.io](https://www.toptal.com/developers/gitignore).
+
+## 👥 Cuarta Práctica Clonando repositorios
+
+`git clone` nos permite hacer una copia local de un repositorio, conservando su historial de cambios.
+
+```bash
+git clone https://github.com/usuario/repositorio.git
+```
