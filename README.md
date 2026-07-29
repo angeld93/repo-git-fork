@@ -68,3 +68,26 @@ Para generar automáticamente el contenido de un archivo `.gitignore` según tu 
 ```bash
 git clone https://github.com/usuario/repositorio.git
 ```
+
+## 🪾 Quinta Práctica: Creación de ramas
+
+`git branch nombre-rama` nos permite crear una nueva rama. Una rama es una versión alterna de nuestro proyecto y nos permiten trabajar distintas funciones en paralelo.
+
+`git checkout nombre-rama` se utiliza para movernos de la rama actual, a la rama indicada.
+`git checkout -b nombre-rama` nos permite crear una nueva rama y movernos a ella en un solo comando.
+
+Otros comandos utiles son `git branch` para listar las ramas existentes y `git branch -d nombre-rama` para borrar una rama local.
+
+Al momento de tener creada una rama, la puedes iniciar en el repositorio remoto y hacer push con `git push -u origin nombre-rama`
+
+> [!WARNING]
+> Es importante tener en cuenta que el contenido de las ramas toma en cuenta la rama actual en el momento en que se creo.
+
+### Creando un rama js
+
+```bash
+git checkout -b js
+git add . # Solo agrega el contenido de la rama js
+git commit -m "Creando index.js"
+git push -u origin js
+```
