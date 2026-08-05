@@ -91,3 +91,28 @@ git add . # Solo agrega el contenido de la rama js
 git commit -m "Creando index.js"
 git push -u origin js
 ```
+
+## 🌲 Sexta Práctica: Fusión de ramas
+
+**Fusionar** una rama consiste en unir el trabajo de una o varias ramas en una sola. Generalmente, vamos a querer agregar los cambios de otras ramas a la rama principal.
+
+```bash
+git checkout main # Rama principal
+git merge html # Rama con la que se va a fusionar
+git push
+```
+
+Fusionar ramas puede resultar en 2 tipos de fusión:
+
+- **Fast-Forward:** la fusión no tiene conflictos, esto quiere decir que solo agrega cosas y no modifica algo que también existe en la otra rama.
+- **Manual Merge:** Ambas ramas tienen conflictos en uno o varios cambios, por lo tanto la fusión ocurre de forma manual eligiendo lo que queremos conservar.
+
+![Ejemplo de manual merge](images/manual-merge.png)
+
+```bash
+git checkout main
+git merge html
+# En este punto se abre el editor para resolver conflictos, corriges y guardas los cambios
+git add . # Agregas los cambios sin conflictos
+git commit -m "Fusionando rama main con html"
+```
