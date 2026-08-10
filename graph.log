@@ -1,0 +1,45 @@
+* 652902c Agregando 2 párrafos
+*   13d934f Resolviendo conflicto en estaciones del año y fechas de inicio
+|\  
+| * e3a463f Agregando las estaciones del año
+* | 8f9869d Agregando estaciones del año con fecha de inicio
+|/  
+* 65d7190 Agregando documentación de fusiones
+* c78c6da Agregando carpeta images
+*   3e4b998 Resolviendo conflicto merge main/html en el documento index.html
+|\  
+| * 589d2a3 Agregando index.js al index.html
+* | 421df53 Agregando style.css al index.html
+* |   8ab3585 Merge branch 'js'
+|\ \  
+| * | 7e933ee Creando index.js
+* | |   ea481cb Merge branch 'css'
+|\ \ \  
+| * | | cfe5c35 Creando style.css
+| | |/  
+| |/|   
+* | | ebf797b Merge branch 'html'
+|\| | 
+| * | 7ed7435 Creando index.html
+| |/  
+* / 9d75704 Documenta creación de ramas
+|/  
+* 15476b6 Agregando documentación de git clone
+* 9d312e0 Agregando documentación de .gitignore
+* ecbded0 Ignorando archivos .exe
+* 7197522 Agrega practica 2 y titulo detallada a la practica 1
+* cf4601d Creando licencia del repositorio
+*   acacf13 Merge branch 'master' of https://github.com/angeldavid04/repo-git-jonmircha
+|\  
+| * 750f830 Arregla formato de la sección de flujo de trabajo
+| * 34cb0c9 Actualiza README con los detalles del curso y la practica inicial
+| | * 773f740 WIP on master: 042e519 Agregando más contenido al README
+| |/| 
+|/| | 
+| | * 4b51a93 index on master: 042e519 Agregando más contenido al README
+| |/  
+|/|   
+* | 042e519 Agregando más contenido al README
+|/  
+* b696d6e Agregando contenido inicial al README
+* aad2c70 Primer commit 😀

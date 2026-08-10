@@ -1,0 +1,169 @@
+commit 652902c659f17e0c739daedd14a89ee85dcb9441
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 20:15:37 2026 -0700
+
+    Agregando 2 párrafos
+
+commit 13d934f0bdc29af8f75eba56e19d631766f94bb9
+Merge: 8f9869d e3a463f
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 20:13:44 2026 -0700
+
+    Resolviendo conflicto en estaciones del año y fechas de inicio
+
+commit 8f9869de6ffe57684869148c65b2e32b165d0b77
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 15:47:12 2026 -0700
+
+    Agregando estaciones del año con fecha de inicio
+
+commit e3a463fa313f0f4fd8908745612df9c1aee07725
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 15:47:12 2026 -0700
+
+    Agregando las estaciones del año
+
+commit 65d7190bfe7030ea9f94add9969acaa27615a67a
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 15:29:31 2026 -0700
+
+    Agregando documentación de fusiones
+
+commit c78c6da163a122517ea7a5d8514ed53e3022edc8
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 15:22:52 2026 -0700
+
+    Agregando carpeta images
+
+commit 3e4b99858cbb06ebc34e94ec62759867505bcc1b
+Merge: 421df53 589d2a3
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 15:01:52 2026 -0700
+
+    Resolviendo conflicto merge main/html en el documento index.html
+
+commit 589d2a3b0ba4aede7649f61393091375c1e46a99
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 14:55:48 2026 -0700
+
+    Agregando index.js al index.html
+
+commit 421df5360cb301ae1c26f937d4be4511d4020649
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Aug 5 14:54:17 2026 -0700
+
+    Agregando style.css al index.html
+
+commit 8ab3585c1db26b0c233cc711939dd0ce634afed1
+Merge: ea481cb 7e933ee
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Aug 3 12:53:38 2026 -0700
+
+    Merge branch 'js'
+
+commit ea481cb7669e4573330cd40216802641308e6acd
+Merge: ebf797b cfe5c35
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Aug 3 12:53:17 2026 -0700
+
+    Merge branch 'css'
+
+commit ebf797b3f63e1f4195cb7543cde3267e9b2ec6b3
+Merge: 9d75704 7ed7435
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Aug 3 12:49:01 2026 -0700
+
+    Merge branch 'html'
+
+commit 9d757045a44a7857924d6e43bdaa69f3ac09b666
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 29 12:51:55 2026 -0700
+
+    Documenta creación de ramas
+
+commit 7e933ee902b14433c1c43e5c111ddc78072a0d47
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 29 12:23:31 2026 -0700
+
+    Creando index.js
+
+commit cfe5c355eeb4fb0a2dbb43d1bd0464f90ae33cd3
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 29 12:18:56 2026 -0700
+
+    Creando style.css
+
+commit 7ed7435ee276646070f98b9f2836d241827bae12
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 29 12:14:08 2026 -0700
+
+    Creando index.html
+
+commit 15476b6fb83d50d9dd0d4722ae90e819fe865f7f
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Jul 27 16:44:40 2026 -0700
+
+    Agregando documentación de git clone
+
+commit 9d312e0d6942306efdb00608aaec265ea6b10523
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Jul 27 16:28:06 2026 -0700
+
+    Agregando documentación de .gitignore
+
+commit ecbded00cfdfefaca8b30df59fca50539f610fab
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Jul 27 16:15:22 2026 -0700
+
+    Ignorando archivos .exe
+
+commit 719752287e52084d0506cd3fa7513aca7fdce22c
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 22 14:10:31 2026 -0700
+
+    Agrega practica 2 y titulo detallada a la practica 1
+
+commit cf4601d5dd39ff90513ebeec3636466511a0a6b0
+Author: Angel David <135488440+angeldavid04@users.noreply.github.com>
+Date:   Mon Jul 20 14:42:14 2026 -0700
+
+    Creando licencia del repositorio
+
+commit acacf13c4a9daeeee75e16d4768365d759c87a7d
+Merge: 042e519 750f830
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Jul 20 14:18:49 2026 -0700
+
+    Merge branch 'master' of https://github.com/angeldavid04/repo-git-jonmircha
+
+commit 042e51969d895022ef5de0ba91d41d5d3484ddb2
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Mon Jul 20 14:14:17 2026 -0700
+
+    Agregando más contenido al README
+
+commit 750f8307c50d88455687a3792a1d276764c194a6
+Author: Angel David <135488440+angeldavid04@users.noreply.github.com>
+Date:   Mon Jul 20 14:07:35 2026 -0700
+
+    Arregla formato de la sección de flujo de trabajo
+
+commit 34cb0c9e0fabac6c9ef1fbdd1acaa8944f058c29
+Author: Angel David <135488440+angeldavid04@users.noreply.github.com>
+Date:   Mon Jul 20 14:05:56 2026 -0700
+
+    Actualiza README con los detalles del curso y la practica inicial
+    
+    Added introductory information and initial practice details for the Git and GitHub course.
+
+commit b696d6e432930e88629b5a0e29d6ba5a74820fbc
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 15 11:55:56 2026 -0700
+
+    Agregando contenido inicial al README
+
+commit aad2c70925b054da436f2da3eb2775405740af85
+Author: Angel Lopez <angeldavidlopezcorona403@gmail.com>
+Date:   Wed Jul 15 11:50:50 2026 -0700
+
+    Primer commit 😀
