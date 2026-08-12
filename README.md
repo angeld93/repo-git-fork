@@ -140,3 +140,57 @@ git reset --hard HEAD~1`
 
 > [!WARNING]
 > Hay que tener cuidado al utilizar operaciones de este tipo. No es aconsejable utilizarlas a la ligera debido a su naturaleza destructiva.
+
+## Octava Práctica: Manejo del registro del historial
+
+Conocer el manejo del historial nos permite conocer información de commits anteriores y el registro de todos los cambios.
+
+### Ver commits anteriores
+
+El comando `git checkout` también nos permite ver el estado como se encontraba el repositorio en un determinado commit, sin afectar ni realizar ningún cambio al repositorio.
+
+```bash
+git checkout id-commit
+```
+
+### Registro del historial
+
+`git log` nos permite visualizar los cambios realizados en nuestro repositorio. Puede recibir algunos parámetros interesantes.
+
+Los principales comandos que podemos utilizar con `git log` son los siguientes:
+
+- `git log` - Muestra un historial detallado en la terminal, puedes utilizar q para salir y enter para ver más cambios de los que se muestran.
+
+- `git log --oneline` - Muestra una versión simple de los cambios, mostrando un cambio por línea.
+
+- `git log > commits.txt` - Guarda el historial actual en un archivo.
+
+- `git log --oneline --graph --all` - `--graph` muestra el repositorio en forma de árbol, `--all` hace que se muestren los cambios de todas las ramas; en conjunto, se muestra todo el historial de cambios de forma ramificada.
+
+![Demostración del comando git log --oneline --graph --all](images/git-log.png)
+
+#### Algunos comandos adicionales con `git log`
+
+```bash
+# muestra el historial con el formato que indicamos
+git log --pretty=format:"%h - %an, %ar : %s"
+
+# cambiamos la n por cualquier número entero y mostrará los n cambios recientes
+git log -n
+
+# muestra los cambios realizados después de la fecha especificada
+git log --after="2019-07-07 00:00:00"
+
+# muestra los cambios realizados antes de la fecha especificada
+git log --before="2019-07-08 00:00:00"
+
+# muestra los cambios realizados en el rango de fecha especificado
+git log --after="2019-07-07 00:00:00" --before="2019-07-08 00:00:00"
+
+# muestra todo el registro de acciones del log
+# incluyendo inserciones, cambios, eliminaciones, fusiones, etc.
+git reflog
+
+# diferencias entre el Working Directory y el Staging Area
+git diff
+```
