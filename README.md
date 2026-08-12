@@ -194,3 +194,33 @@ git reflog
 # diferencias entre el Working Directory y el Staging Area
 git diff
 ```
+
+## 🔄 Octava Práctica: Reseteo del historial
+
+### Conociendo git status
+
+Antes de hacer una operación como `git reset`, podemos utilizar el comando `git status` para conocer el estado actual del _working directory_ y el _staging area_.
+
+### Haciendo reset al historial
+
+Podemos eliminar distintos puntos del historial utilizando el comando `git reset`
+
+```bash
+# borra el HEAD
+git reset --soft
+
+# borra HEAD y Staging
+git reset --mixed
+
+# borra todo: HEAD, Staging y Working Directory
+git reset --hard
+
+# deshace todos los cambios después del commit indicado, preservando los cambios localmente
+git reset id-commit
+
+# desecha todo el historial y regresa al commit especificado
+git reset --hard id-commit
+```
+
+> [!WARNING]
+> Es importante saber que estos comandos deben tomarse con mucha precaución al hacer trabajo colaborativo, ya que pueden ocasionar percances si no se manejan adecuadamente.
