@@ -116,3 +116,27 @@ git merge html
 git add . # Agregas los cambios sin conflictos
 git commit -m "Fusionando rama main con html"
 ```
+
+## 🩹 Septima Práctica: Modificando cambios del último commit
+
+### Utilizando `commit --amend`
+
+Para hacer modificaciones al último commit en el repositorio local podemos utilizar el parámetro `--amend`, el cual nos permite "enmendar" el último cambio que hayamos hecho.
+
+- **Sin editar el mensaje del último commit:** `git commit --amend --no-edit`
+
+- **Editando el mensaje del último commit:** `git commit --amend -m "Nuevo mensaje"`
+
+> [!WARNING]
+> Es importante tener especial cuidado al utilizar `--amend` cuando ya se ha hecho push, ya que en ese caso se tendrán que solucionar los conflictos con el repositorio remoto.
+
+### Eliminando el último commit
+
+El siguiente comando nos permite eliminar el último commit que hayamos hecho:
+
+```bash
+git reset --hard HEAD~1`
+```
+
+> [!WARNING]
+> Hay que tener cuidado al utilizar operaciones de este tipo. No es aconsejable utilizarlas a la ligera debido a su naturaleza destructiva.
