@@ -224,3 +224,21 @@ git reset --hard id-commit
 
 > [!WARNING]
 > Es importante saber que estos comandos deben tomarse con mucha precaución al hacer trabajo colaborativo, ya que pueden ocasionar percances si no se manejan adecuadamente.
+
+### Haciendo reset a un repositorio
+
+Acciones como estás deben ser tomadas con pinzas, en especial cuando trabajas en un equipo de desarrollo, lo recomendable es usar estos comandos en repositorios personales.
+
+Para reiniciar un repositorio, debes crear un respaldo del archivo config de la carpeta `.git`, luego borrar la carpeta `.git` e iniciar el repositorio con normalidad, con la diferencia de que se recupera el archivo de configuración. Si sigues el procedimiento anterior, no es necesario volver a configurar el repositorio remoto.
+
+```bash
+cd carpeta-repositorio
+mv .git/config ~/saved_git_config # Se respalda .config en la carpeta del usuario actual
+rm -rf .git
+git init
+git branch -M main
+git add .
+git commit -m "Commit inicial"
+mv ~/saved_git_config .git/config # Se reemplaza el archivo .config con el respaldo
+git push --force origin main # Fuerza los cambios al repositorio remoto
+```
