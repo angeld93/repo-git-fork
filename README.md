@@ -242,3 +242,42 @@ git commit -m "Commit inicial"
 mv ~/saved_git_config .git/config # Se reemplaza el archivo .config con el respaldo
 git push --force origin main # Fuerza los cambios al repositorio remoto
 ```
+
+## 🏷️ Novena Práctica: Tags
+
+Las **tags** o etiquetas nos permiten versionar nuestro código en un formato de versiones, generalmente empleando [versionamiento semántico](https://semver.org/lang/es/).
+
+```bash
+# listar etiquetas
+git tag
+
+# crear etiqueta
+git tag numero-version
+
+# eliminar una etiqueta
+git tag -d numero-version
+
+# mostrar información de una etiqueta
+git show numero-version
+```
+
+### Sincronizando etiqueta
+
+Para sincronizar la etiqueta del repositorio local al remoto, podemos utilizar los siguientes comandos:
+
+```bash
+git add .
+git tag v1.0.0
+git commit -m "v1.0.0"
+git push origin numero-version
+```
+
+### Generando una etiqueta anotada
+
+Las etiquetas anotadas son un objeto independiente guardado en la base de datos del repositorio, esto quiere decir que tienen más caracteristicas a comparación de las etiquetas usadas anteriormente.
+
+```bash
+git add .
+git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
+git push --tags
+```
