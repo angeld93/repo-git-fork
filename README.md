@@ -281,3 +281,7 @@ git add .
 git tag -a "v1.0.0" -m "Mensaje de la etiqueta"
 git push --tags
 ```
+
+### Versionando
+
+Este commit es para oficializar nuestra versión **1.0.0**.
