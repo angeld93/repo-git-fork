@@ -5,9 +5,19 @@ html {
   color: #202020;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -23,14 +33,21 @@ a:hover {
   color: #ff4500;
 }
 
+main {
+  width: min(100%, 90ch);
+  padding-inline: 0.75rem;
+}
+
 .header {
   background-color: #e6501a;
   color: #fafafa;
   padding-block: 0.5rem;
   padding-inline: 0.75rem;
+  margin-block: 0 0.75rem;
+  width: min(100%, 90ch);
 }
 
 .ilustration {
-  width: 80%;
+  width: min(80%, 50rem);
   margin-inline: auto;
 }
